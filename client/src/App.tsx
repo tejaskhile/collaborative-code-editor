@@ -9,7 +9,7 @@ const App = () => {
         <>
 
 
-            <Router basename="/collaborative-code-editor/">
+            <Router>
                 <Routes>
                     <Route path="/" element={<HomePage />} />
                     <Route path="/editor/:roomId" element={<EditorPage />} />

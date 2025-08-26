@@ -4,7 +4,7 @@ import { defineConfig } from "vite"
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: "/collaborative-code-editor/",
+    base: "/",
     plugins: [react()],
     build: {
         chunkSizeWarningLimit: 1600,
@@ -33,7 +33,7 @@ export default defineConfig({
     preview: {
         port: 5173
     },
-    server:{
+    server: {
         open: true,
     }
 })

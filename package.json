@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "@types/connect": "^3.4.38",
+    "@types/node": "^24.3.0"
+  }
+}

@@ -89,10 +89,10 @@ const FormComponent = () => {
     }, [currentUser, location.state?.redirect, navigate, setStatus, socket, status])
 
     return (
-        <div className="flex w-full max-w-[700px] items-center justify-center gap-4 p-4 sm:w-[700px] sm:p-4">
-            <img src={bgLogo} alt="Logo" className="w-[300px] md:w-[300px] sm:w-[100px]" />
+        <div className="flex w-full items-center justify-center px-20 sm:px-15 gap-4">
+            <img src={bgLogo} alt="Logo" className="md:w-[250px] md:block hidden xs600:block" />
             <div className="flex w-full flex-col gap-4">
-                <form onSubmit={joinRoom} className="flex w-full flex-col gap-4">
+                <form onSubmit={joinRoom} className="flex flex-col gap-4">
                     <input
                         type="text"
                         name="roomId"

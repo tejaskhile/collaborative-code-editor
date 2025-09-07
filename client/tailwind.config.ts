@@ -3,6 +3,10 @@ export default {
     content: ["./src/**/*.{jsx,tsx}", "./*.html"],
     theme: {
         extend: {
+            screen:{
+                'xs600' : '600px',
+                'xs400' : '400px',
+            },
             colors: {
                 dark: "#0A0A0A",
                 darkHover: "#31363F",
